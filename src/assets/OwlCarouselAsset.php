@@ -1,9 +1,9 @@
 <?php
 namespace onix\assets;
 
-use yii\web\AssetBundle;
+use yii\web\AssetBundle as YiiAssetBundle;
 
-class OwlCarouselAsset extends AssetBundle
+class OwlCarouselAsset extends YiiAssetBundle
 {
     public $sourcePath = '@bower/owl.carousel/dist';
 
